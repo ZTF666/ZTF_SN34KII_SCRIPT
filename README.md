@@ -8,6 +8,13 @@ Sniff packets from wlan without having access .
 This tool needs wireshark and the networks password to decrypt the .caps files .
 
 ```
+## Prerequisite
+
+```
+Kali linux or parrotOs & wireshark
+if else 
+get airmon-ng and you'll be fine
+```
 ## Starting monitoring interface
 ``` 
 Starts monitor mode
