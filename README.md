@@ -1,7 +1,7 @@
 # ZTF_SN34KII_SCRIPT
 :ear: :eyes: :nose: :computer: :floppy_disk: :zap: :whale: :book:  and voila ! 
 
-![Screenshot](img.png)
+![Screenshot](scr/img.png)
 ## What does the script do !?
 ```
 Sniff packets from wlan without having access .
@@ -12,25 +12,25 @@ This tool needs wireshark and the networks password to decrypt the .caps files .
 ``` 
 Starts monitor mode
 ```
-![Screenshot](Monitoring.png)
+![Screenshot](scr/Monitoring.png)
 
 ## Selecting & sniffing Target
 ```
 After closing the xterm and noting your target's info,
 you're prompted to this
 ```
-![Screenshot](sniffing.png)
+![Screenshot](scr/sniffing.png)
 ```
 Type in 1 and you'll be prompted to insert the data . 
 ```
-![Screenshot](insertingdata.png)
+![Screenshot](scr/insertingdata.png)
 
 ## Capturing the packets
 ```
 When the Essid , Bssid , channel and the name of your .cap files are done being inserted , 
 on new terminal will open and start sniffing the target
 ```
-![Screenshot](capturingpackets.png)
+![Screenshot](scr/capturingpackets.png)
 
 - **My issue**
 <details>
@@ -52,13 +52,13 @@ ifconfig -a
 airmon-ng stop YOUR_MONITOR_INTERFACE
 airmon-ng check kill 
 ```
-![Screenshot](cleaning.png)
+![Screenshot](scr/cleaning.png)
 
 ## .cap files
 ```
 If you don't specify a path , they will be created in same folder as the script .
 ```
-![Screenshot](caps.png)
+![Screenshot](scr/caps.png)
 
 ## How to Read the CAP
 ```
