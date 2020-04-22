@@ -4,6 +4,8 @@
 ![Screenshot](img.png)
 ## What does the script do !?
 ```
-h3h3h3h3 ,maybe someday i'll write a proper README with full instructions ! but not today .
+Sniff packets from wlan without having access .
+This tool needs wireshark and the networks password to decrypt the .caps files .
+
 ```
 
