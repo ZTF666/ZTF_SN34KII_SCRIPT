@@ -13,7 +13,7 @@ This tool needs wireshark and the networks password to decrypt the .caps files .
 ```
 Kali linux or parrotOs & wireshark
 if else 
-get airmon-ng and you'll be fine
+get aircrack-ng and you'll be fine
 ```
 ## Starting monitoring interface
 ``` 
